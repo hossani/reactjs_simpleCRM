@@ -1,0 +1,31 @@
+
+.modalX {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  max-height: 80%;
+  overflow-y: auto;
+  width: 75%;
+  background-color: white;
+}
+
+  .th {
+    padding: 10px; /* Add padding for better spacing */
+    text-align: center; /* Center align text */
+    width: 16.66%; /* Ensure equal width for all columns */
+    border: none;
+    border-bottom: 1px solid #43B863;
+}
+
+.btn-view{
+    padding: 0 5px;
+    text-align: center;
+    width: 45px;
+}
+
+.modalX th, .modalX td {
+  border: 1px solid #828282;
+  text-align: center;
+}

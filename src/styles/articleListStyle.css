@@ -1,0 +1,42 @@
+/* Reset margin and padding for all elements */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Container for the table */
+.div-container {
+    margin: 10px auto;
+    height: auto;
+    width: 1200px;
+    border: 1px solid #43B863;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+/* Table styles */
+table {
+    width: 100%; 
+    border-collapse: collapse; /* Ensure no double borders */
+}
+
+/* Header and cell styles */
+th {
+    padding: 10px; /* Add padding for better spacing */
+    text-align: center; /* Center align text */
+    width: 20; /* Ensure equal width for all columns */
+    border: none;
+    border-bottom: 1px solid #43B863;
+}
+
+thead {
+    background-color: #E4EDE0;
+    height: 50px;
+}
+
+.espace{
+    width: 100%;
+    height: 15px;
+}
+

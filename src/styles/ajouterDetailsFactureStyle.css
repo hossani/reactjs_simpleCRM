@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.div-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}
+
+.div-input input,
+.div-input select {
+    width: 100%;
+    padding: 5px;
+    background-color: #E4EDE0;
+    border: 1px solid #E4EDE0;
+    text-align: center;
+}
+
+.div-input label {
+    margin-bottom: 15px;
+}
+
+.form-header {
+    display: flex;
+    justify-content: center; /* Centre les divs dans le conteneur */
+    gap: 150px; /* Ajustez cette valeur pour contrôler la distance entre les divs */
+    margin-bottom: 10px;
+}
+
+.decoration-line {
+    border: 1px solid #43B863;
+    margin: 30px auto; /* Centrer horizontalement */
+    width: 1200px;
+  }
+  .div-add-sub {
+    display: flex;
+    justify-content: flex-end;
+    width: 1200px;
+    margin:30px auto; /* Centrer horizontalement */
+  }
+
+  .div-btn-sp{
+    display: flex;
+    width: 320px;
+    justify-content: flex-end;
+  }
+.btn-article{
+    background-color: #43B863;
+    color: white;
+    border: 3px solid #43B863;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px;
+    width: 150px;
+}
+.btn-facture{
+    background-color: #E4EDE0;
+    color: black;
+    border: 1px solid #43B863;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px;
+    width: 150px;
+}
+a {
+    padding: 10px; /* Ajoute du padding pour un peu d'espace autour du texte */
+    background-color: #E4EDE0;
+    border: 1px solid #43B863;
+    border-radius: 8px;
+}
+
+.add-delete-client{
+    font-weight: bold;
+}
+

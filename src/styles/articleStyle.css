@@ -1,0 +1,27 @@
+td {
+  padding: 15px; /* Add padding for better spacing */
+  text-align: center; /* Center align text */
+}
+
+td input, td select {
+  padding: 8px;
+  text-align: center;
+  height: 50px;
+  width: 150px;
+  font-size: 14px;
+  font-weight: medium;
+}
+
+.normal-input {
+  border: 1px solid #ccc;
+  background-color: #E4EDE0;
+  color: black;
+  font-size: 14px;
+  font-weight: medium;
+}
+
+.readonly-input {
+  background-color: #88CF9B;
+  border: 1px solid #88CF9B;
+  color: white;
+}
